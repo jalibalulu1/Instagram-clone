@@ -40,7 +40,7 @@ body{
 .insta-logo{
     height: 39px;
     margin-top: 7px;
-    margin-left: 29px;
+    margin-left: 6px;
     
 }
 .search-box{
@@ -53,7 +53,7 @@ body{
     border-radius: 8px;
     color:rgba(0, 0, 0, 0.5);
     padding-left: 34px;
-    transform:translateX(-50%);
+    transform:translateX(-70%);
     text-transform:capitalize;
     font-size: 16px;
 }
@@ -66,15 +66,18 @@ body{
     position: relative;
     margin: 82px;
     margin-top: 67px;
+    margin-right: 87px;
 }
 .user-icon{
     width: 25px;
     height:26px;
     float: right;
-    margin:5px;
+    margin-left:16px;
     border-radius: 50%;
     background-image:url(images/My_pic.jpeg);
     background-size: cover;
+    margin-top: 4px;
+    margin-right: 6px;
 }
 .home-icons{
 height:30px;
@@ -89,7 +92,7 @@ margin-right: 10px;
     height: 30px;
     margin-bottom: 10px;
     cursor: pointer;
-    display: inline-block block; 
+    display: inline-block; 
 }
 .newpost-icons{
     width: 30px;
@@ -98,12 +101,12 @@ margin-right: 10px;
     cursor: pointer;
 }
 .explore-icons{
- 
+    margin-right: 6px;
     width: 29px;
     height: 26px;
     margin-left: 15px;
     cursor: pointer;
-    margin-left: 17px;
+    margin-left: 5px;
 }
 .heart-icons{
     width:26px;
@@ -184,8 +187,11 @@ margin-right: 10px;
     overflow: hidden;
     margin-top: 5px;
     color: rgba(0, 0, 0, 0.5);
-    
    
+   
+}
+.names{
+    padding-left: 11px;
 }
 .post{
     width:100%;
@@ -344,6 +350,7 @@ margin-right: 10px;
     font-size: 14px;
     font-family: 500;
     margin-top: 5px;
+    width: 115px;
 }
 .action-button{
     width:70px;
